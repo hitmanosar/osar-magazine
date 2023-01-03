@@ -1,0 +1,148 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.topbeauty {
+  width: 100%;
+  height: auto;
+}
+
+.row3_h {
+  font-family: "DM Serif Display", serif;
+}
+
+.beauty {
+  background-color: skyblue;
+}
+
+.row1_img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.row2_p {
+  color: purple;
+
+  font-size: 18px;
+  word-spacing: 2px;
+  line-height: 33px;
+  text-align: left;
+}
+
+.b2_img {
+  width: 90%;
+  height: 85vh;
+  transform: skew(5deg, 5deg);
+}
+
+.b2row2 {
+  padding: 20px;
+  font-size: 18px;
+  word-spacing: 2px;
+  line-height: 33px;
+  text-align: left;
+  background-color: skyblue;
+  color: black;
+}
+
+.beauty3 {
+  background-color: pink;
+}
+
+.beauty h3 {
+  font-family: "Prompt", sans-serif;
+}
+
+.sst {
+  font-family: "DM Serif Display", serif;
+}
+
+.row3_p {
+  font-size: 18px;
+  word-spacing: 2px;
+  line-height: 33px;
+}
+
+.row3_img {
+  border-radius: 40px;
+  width: 100%;
+  height: auto;
+}
+
+.row4_img {
+  width: 100%;
+  height: 100%;
+}
+
+.row4_p {
+  background-color: orange;
+  font-size: 18px;
+  word-spacing: 2px;
+  line-height: 28px;
+  color: white;
+}
+
+.r5 {
+  background-color: yellow;
+  width: 95%;
+  border-radius: 20px;
+}
+
+.r5 img {
+  width: 90%;
+  height: auto;
+}
+
+.r5 p {
+  font-size: 18px;
+  word-spacing: 2px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.r5 h4 {
+  text-align: center;
+  color: red;
+  font-family: "DM Serif Display", serif;
+}
+
+.clients {
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #ebeff5;
+}
+
+.cimg {
+  width: 12vw;
+}
+
+@media screen and (max-width: 770px) {
+  .b2_img {
+    height: auto;
+    transform: skew(0deg, 0deg);
+  }
+}
+
+@media screen and(max-width: 600px) {
+  .row3_h {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .b2_img {
+    height: auto;
+    transform: skew(0deg, 0deg);
+  }
+}

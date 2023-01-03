@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+
+body{
+    overflow-x: hidden;  
+}
+
+.latest5 img{
+    width: 100%;
+    height: 40vh;
+}
+
+
+.latest5{
+    background-color: black;
+    color: yellow;
+}
+
+
+.table_color{
+  color: yellow;
+}
+
+
+
+.img_jum{
+    background-image: url(../sport/jum3.jpg);
+    height:300px;
+    background-position: 20%;
+    background-size: cover; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0 0 8px 0;
+    position: relative;
+}
+
+.jum_letter{
+    background-color: rgba(236, 235, 235, 0.689);
+    border-radius: 10px;
+    padding-bottom: 20px;
+    position: absolute;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+.clients{
+    display: flex;
+    height: 150px;  
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#ebeff5;
+}
+
+.cimg{
+    width: 12vw;
+     
+   
+}
+
+.sport_img{
+  
+    background-image: url(../sport/sport_img.jpg);
+    height: 360px;
+    background-position: 20%;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.img_letter{
+    position:absolute;
+    top: 60%;
+    left: 5%;
+    
+}
+
+.sport_left{
+    padding: 0;
+}
+.sport_right{
+    padding: 0;
+}
+
+.sport_left div{
+    height: 175px;
+    padding: 0;
+    margin-right: 2px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px blue;
+}
+.sport_right div{
+    height: 175px;
+    padding: 0;
+    margin-left: 2px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px blue;
+}
+
+.football{
+    background-image: url(../sport/foot.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition: 0.5s;    
+}
+
+.foo{
+    background-image: url(../sport/foo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition: 0.5s;
+
+    
+}
+.bike{
+    background-image: url(../sport/bick.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition: 0.5s;
+}
+.horse{
+    background-image: url(../sport/horse.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    transition: 0.5s;
+}
+
+.football:hover{
+    background-image: url(../sport/foot2.jpg);
+}
+.bike:hover{
+    background-image: url(../sport/bike.jpg);
+}
+
+.horse:hover{
+    background-image: url(../sport/horse2.jpg);
+}
+.foo:hover{
+    background-image: url(../sport/glof.jpg);
+}
+
+
+.football2{
+  background-color: #000;
+}
+
+
+
+.latest5 img{
+    width: 100%;
+    height: 40vh;
+
+}
+
+
+table tr th{
+    color: yellow;
+}
+
+
+table tr td{
+    color: white;
+}
+
+
+
+.latest5{
+   
+    background-color: black;  
+
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    
+
+
+   
+     .latest5 img{
+        width: 100%;
+        height: auto;
+    }
+
+
+}
